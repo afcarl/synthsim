@@ -1,0 +1,33 @@
+{
+  "name": "synthsim",
+  "version": "0.0.1",
+  "description": "A simulation that generates soundscapes",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlukerice/synthsim.git"
+  },
+  "keywords": [
+    "synth",
+    "sim",
+    "synthesizer",
+    "soundscape",
+    "webaudio"
+  ],
+  "author": "davidlukerice",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/davidlukerice/synthsim/issues"
+  },
+  "homepage": "https://github.com/davidlukerice/synthsim#readme",
+  "dependencies": {
+    "phaser": "2.4.4"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-watch": "4.3.5"
+  }
+}
