@@ -18,7 +18,7 @@
     "webaudio"
   ],
   "author": "davidlukerice",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidlukerice/synthsim/issues"
   },
@@ -27,7 +27,14 @@
     "phaser": "2.4.4"
   },
   "devDependencies": {
+    "babel-preset-es2015": "6.1.18",
+    "babelify": "7.2.0",
+    "del": "2.1.0",
     "gulp": "3.9.0",
-    "gulp-watch": "4.3.5"
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-watch": "4.3.5",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "watchify": "3.6.1"
   }
 }
