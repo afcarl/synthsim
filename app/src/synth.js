@@ -31,8 +31,8 @@ export default class {
 
     this.cursors = this.game.input.keyboard.createCursorKeys();
   }
-  update(food) {
-    var closestPellet = getNearestPellet(this.game, food, this.sprite);
+  update(world) {
+    var closestPellet = getNearestPellet(this.game, world.food, this.sprite);
     if (closestPellet) {
       this.game.physics.arcade.moveToObject(this.sprite, closestPellet, 50);
     }
